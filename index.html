@@ -1,0 +1,238 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>InAmigos Foundation - NGO Awareness</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    margin-bottom:20px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    background:#27ae60;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#1e8449;
+}
+
+section{
+    padding:60px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:30px;
+    color:#27ae60;
+}
+
+.about{
+    text-align:center;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.impact{
+    background:#eafaf1;
+}
+
+.impact ul{
+    max-width:800px;
+    margin:auto;
+}
+
+.impact li{
+    margin:15px 0;
+    font-size:18px;
+}
+
+.cta{
+    background:#27ae60;
+    color:white;
+    text-align:center;
+}
+
+.cta h2{
+    margin-bottom:15px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="hero">
+        <h1>InAmigos Foundation</h1>
+        <p>Creating Positive Change Through Education, Empowerment and Community Service</p>
+        <a href="#projects" class="btn">Explore Our Projects</a>
+    </div>
+</header>
+
+<section class="about">
+    <h2 class="section-title">About Us</h2>
+    <p>
+        InAmigos Foundation is a non-profit organization dedicated to
+        improving lives through education, women empowerment,
+        environmental sustainability, animal welfare and community support.
+        Our mission is to create lasting social impact and empower people
+        to build a better future.
+    </p>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">Our Ongoing Projects</h2>
+
+    <div class="projects">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7" alt="">
+            <div class="card-content">
+                <h3>BachpanShala</h3>
+                <p>Providing quality education and learning opportunities for underprivileged children.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216" alt="">
+            <div class="card-content">
+                <h3>Udaan</h3>
+                <p>Empowering women through skill development and financial independence programs.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b" alt="">
+            <div class="card-content">
+                <h3>Jeev</h3>
+                <p>Working for animal welfare through rescue, feeding and awareness initiatives.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7" alt="">
+            <div class="card-content">
+                <h3>Prakriti</h3>
+                <p>Promoting environmental sustainability through plantation drives and awareness campaigns.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c" alt="">
+            <div class="card-content">
+                <h3>Seva</h3>
+                <p>Food distribution and humanitarian support for underprivileged communities.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952" alt="">
+            <div class="card-content">
+                <h3>Vikas</h3>
+                <p>Skill development and internship opportunities for students and young professionals.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="impact">
+    <h2 class="section-title">Our Social Impact</h2>
+
+    <ul>
+        <li>📚 Improving educational opportunities for children.</li>
+        <li>👩 Empowering women through training and employment skills.</li>
+        <li>🌱 Encouraging environmental conservation.</li>
+        <li>🐾 Supporting animal welfare initiatives.</li>
+        <li>🍲 Providing food and basic necessities to those in need.</li>
+        <li>💼 Developing future-ready skills through internships.</li>
+    </ul>
+</section>
+
+<section class="cta">
+    <h2>Join Our Mission</h2>
+    <p>Together we can create a better and more inclusive society.</p>
+    <br>
+    <a href="#" class="btn">Volunteer Now</a>
+</section>
+
+<footer>
+    <p>© 2026 InAmigos Foundation | NGO Awareness Webpage</p>
+</footer>
+
+</body>
+</html>
+```
